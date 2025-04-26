@@ -4,7 +4,7 @@ import re
 """
 Complib
 This module provides a command line completion library for Python.
-LGPLv3
+GPLv3
 email: maru@lithium-dev.xyz (pgp attached)
 signal: maru.222
 BTC: 16innLYQtz123HTwNLY3vScPmEVP7tob8u
