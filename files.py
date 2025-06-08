@@ -32,6 +32,8 @@ def amend(fnw, data):
     except Exception as e:
         print(f"Error: {e}")
     print(f"Data appended to {fnw}")
+def touch(fnw):
+    write(fnw, "")
 def nread():
     try:
         fnr = input("Filename to read(utf-8): ")
