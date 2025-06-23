@@ -18,7 +18,6 @@ def write(fnw, data):
     try:
         fw = open(fnw, "w", encoding="utf-8")
         fw.write(data)
-        print(fw)
         fw.close()
     except Exception as e:
         print(f"Error: {e}")
